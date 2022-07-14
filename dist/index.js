@@ -13,14 +13,14 @@ var __assign = (this && this.__assign) || function () {
 var short2atoms = require('./util/short2atoms');
 var atoms2codes = require('./util/atoms2codes');
 var cG = /** @class */ (function () {
-    function cG(rule) {
-        if (typeof rule === 'string') {
-            this.ruleShort = rule;
+    function cG(rules) {
+        if (typeof rules === 'string') {
+            this.ruleShort = rules;
             this.ruleAtoms = null;
         }
         else {
             this.ruleShort = null;
-            this.ruleAtoms = rule;
+            this.ruleAtoms = rules;
         }
         this.iteratorIndex = 0;
         this.codes = [];

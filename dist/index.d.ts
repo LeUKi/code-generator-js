@@ -6,7 +6,7 @@ declare class cG {
     iteratorIndex: number;
     codes: string[];
     templateFn: templateFn;
-    constructor(rule: string | Array<string | Array<string>>);
+    constructor(rules: string | Array<string | Array<string>>);
     _short2atoms(): void;
     _gen(): void;
     check(code: string): boolean;

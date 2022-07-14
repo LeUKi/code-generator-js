@@ -6,13 +6,13 @@ class cG {
     iteratorIndex: number;
     codes: string[];
     templateFn: templateFn;
-    constructor(rule: string | Array<string | Array<string>>) {
-        if (typeof rule === 'string') {
-            this.ruleShort = rule;
+    constructor(rules: string | Array<string | Array<string>>) {
+        if (typeof rules === 'string') {
+            this.ruleShort = rules;
             this.ruleAtoms = null
         } else {
             this.ruleShort = null;
-            this.ruleAtoms = rule;
+            this.ruleAtoms = rules;
         }
         this.iteratorIndex = 0;
         this.codes = [];
