@@ -1,7 +1,7 @@
 {
-  "name": "code-generator-js",
+  "name": "codes-generator-js",
   "version": "1.0.0",
-  "description": "A generator to custom sequence code",
+  "description": "A JavaScript string library that generates batch generated code strings by template rules.",
   "keywords": [
     "string",
     "code",
@@ -9,6 +9,13 @@
   ],
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/LeUKi/codes-generator-js.git"
+  },
   "exports": {
     "import": "./dist/bundle-esm.js",
     "require": "./dist/bundle-cjs.js"

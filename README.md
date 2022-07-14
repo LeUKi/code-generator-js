@@ -1,4 +1,4 @@
-# code-generator-js
+# codes-generator-js
 
 A JavaScript string library that generates batch generated code strings by template rules.
 
