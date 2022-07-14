@@ -9,7 +9,7 @@ A JavaScript string library that generates batch generated code strings by templ
 ### import
 
 ```typescript
-const CG = require("code-generator-js");
+const CG = require("codes-generator-js");
 ```
 
 ### initialize
@@ -66,7 +66,7 @@ cg.toGen(); //["No.1", "No.2", ..., "No.10"]]
 ### check
 
 ```typescript
-cg.check("test2022:1"); //true
+cg.check("No.1"); //true
 cg.check("sdfsdf"); //false
 ```
 
